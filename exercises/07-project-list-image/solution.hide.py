@@ -1,7 +1,7 @@
 import requests
 
 # Your code here
-response = requests.get("https://assets.breatheco.de/apis/fake/sample/project_list.php")
+response = requests.get("https://image.shutterstock.com/image-vector/trophy-cup-award-vector-icon-260nw-592525184.jpg")
 
 if response.status_code == 200:
     # Parsing JSON response
